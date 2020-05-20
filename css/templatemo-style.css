@@ -383,7 +383,7 @@ body {
 
 @media screen and (max-width: 564px) {
 
-	.tm-banner-title { font-size: 2.0em; }
+	.tm-banner-title { font-size: 1.0em; }
 	.tm-banner-text { font-size: 1.2em; }
 	
 	.flex-2-col {
@@ -404,9 +404,8 @@ body {
 		padding: 10px 30px;
 	}
 
-	#contacttext {
-		width: inherit;
-
+	.carousel {
+		max-height: 1300px;
 	}
 
 }
