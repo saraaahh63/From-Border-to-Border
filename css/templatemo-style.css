@@ -225,7 +225,7 @@ body {
 
 .carousel {
     position: relative;
-    height: 500px;
+    min-height: 500px;
   	padding: 20px 50px 80px 50px;
   	text-align: left;
 }
@@ -379,9 +379,6 @@ body {
 	body { padding-top: 30px; }
 	.tm-sidebar { display: none; }
 
-	.carousel {
-		height: 700px;
-	}
 }
 
 @media screen and (max-width: 564px) {
@@ -405,10 +402,6 @@ body {
 	.submit-btn {
 		font-size: 1.2em;
 		padding: 10px 30px;
-	}
-
-	.carousel {
-		height: 1100px;
 	}
 
 	#contacttext {
